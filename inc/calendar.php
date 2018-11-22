@@ -14,49 +14,42 @@
         <div>sun</div>
       </div>
       <div class="calendar__week">
-          <div class="calendar__day day"><button>1</button></div>
-        <div class="calendar__day day">2</div>
-        <div class="calendar__day day">3</div>
-        <div class="calendar__day day">4</div>
-        <div class="calendar__day day">5</div>
-        <div class="calendar__day day">6</div>
-        <div class="calendar__day day">7</div>
+          <?PHP
+            for ($i = 1; $i <= 7; $i++){
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+            }
+          ?>
       </div>
       <div class="calendar__week">
-        <div class="calendar__day day">8</div>
-        <div class="calendar__day day">9</div>
-        <div class="calendar__day day">10</div>
-        <div class="calendar__day day">11</div>
-        <div class="calendar__day day">12</div>
-        <div class="calendar__day day">13</div>
-        <div class="calendar__day day">14</div>        
+          <?PHP
+            for ($i = 8; $i <= 14; $i++){
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+            }
+          ?>
       </div>
       <div class="calendar__week">
-        <div class="calendar__day day">15</div>
-        <div class="calendar__day day">16</div>
-        <div class="calendar__day day">17</div>
-        <div class="calendar__day day">18</div>
-        <div class="calendar__day day">19</div>
-        <div class="calendar__day day">20</div>
-        <div class="calendar__day day">21</div>    
+          <?PHP
+            for ($i = 15; $i <= 21; $i++){
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+            }
+          ?>
       </div>
       <div class="calendar__week">
-        <div class="calendar__day day">22</div>
-        <div class="calendar__day day">23</div>
-        <div class="calendar__day day">24</div>
-        <div class="calendar__day day">25</div>
-        <div class="calendar__day day">26</div> 
-        <div class="calendar__day day">27</div> 
-        <div class="calendar__day day">28</div> 
+          <?PHP
+            for ($i = 22; $i <= 28; $i++){
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+            }
+          ?>
       </div>
       <div class="calendar__week">
-        <div class="calendar__day day">29</div>
-        <div class="calendar__day day">30</div>
-        <div class="calendar__day day">31</div>
-        <div class="calendar__day day">1</div>
-        <div class="calendar__day day">2</div>
-        <div class="calendar__day day">3</div>
-        <div class="calendar__day day">4</div>
+          <?PHP
+            for ($i = 29; $i <= 31; $i++){
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+            }
+            for ($i = 1; $i <= 4; $i++){
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+            }
+          ?>
       </div>
     </div>
 
@@ -90,7 +83,7 @@
   padding: 16px;
 }
     
-.calendar__day button {
+.calendar__day a {
     border-radius: 10.5em;
     border: 2px solid #41A7C7;
     background: transparent;
@@ -99,7 +92,7 @@
     transition-duration: 0.4s;
 }
     
-.calendar__day button:hover {
+.calendar__day a:hover {
     background: #41A7C7;
 }
 

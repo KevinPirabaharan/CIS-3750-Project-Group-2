@@ -14,9 +14,9 @@
             <td colspan="2">
                 <table border="0" style="width:100%">
                     <tr>
-                        <td style="width: 20%; align-content: center; "><img src="images/Gryphon.jpg" width="40%" style="padding-left: 10%;padding-right: 10%"></td>
+                        <td style="width: 20%; align-content: center; "><img src="../images/Gryphon.jpg" width="40%" style="padding-left: 10%;padding-right: 10%"></td>
                         <td colspan="1" style="text-align: center; "><div style="font-size: 400%">University of Guelph</div><div style="font-size: 200%">Reynolds Building</div><div style="font-size: 150%">School of Computer Science </div></td>
-                        <td style="width: 15%; align-content: center; "><img src="images/uofg_cornerstone_red.png" width="40%" style="padding-left: 10%; padding-right: 5%;"></td>
+                        <td style="width: 15%; align-content: center; "><img src="../images/uofg_cornerstone_red.png" width="40%" style="padding-left: 10%; padding-right: 5%;"></td>
                     </tr>
                     <tr>
                         <td colspan="3"> <hr style=" border-color: saddlebrown"> </td>
@@ -160,7 +160,7 @@
         </tr>
 
         <tr>
-            <td colspan="2" style="align-content: center; text-align: center; vertical-align: 10%"> <img src="images/logo.png" width="2%"> Picturesque Designs </td>
+            <td colspan="2" style="align-content: center; text-align: center; vertical-align: 10%"> <img src="../images/logo.png" width="2%"> Picturesque Designs </td>
         </tr>
     </table>
 
@@ -174,7 +174,9 @@
 
     <b>Project Lead:</b> Ahmed Mousa.&emsp;&emsp;&emsp;&emsp;
     <b>Developers:</b> Jeremie Fraeys de Veubeke, Justin Wegner, Kevin Pirabaharan, Manoj Naick, Miriam Snow
+
+<br><br><br><br><br>
 -->
-    <br><br><br><br><br>
+    
 </body>
 </html>

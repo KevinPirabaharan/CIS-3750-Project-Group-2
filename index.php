@@ -23,11 +23,8 @@ if (isset($_POST['submit'])){
             if ($password == $row["password"] && $username == $row["username"]){
                 $login = 1;
             }
-           //echo "id: " . $row["user_id"]. " - Name: " . . " password: " . . "  pinfo: ".$row["pinfo_id"]."<br>";
         }
-    } else {
-        echo "0 results";
-    }    
+    }   
 }
 ?>
 
@@ -45,7 +42,7 @@ if (isset($_POST['submit'])){
                         <p>Username: <input type="text" name="username"></p>
                         <p>Password: <input type="password" name="password"></p>
                         <p><input type="submit" disabled name="submit" id="sub"></p>
-                        <div class="g-recaptcha" data-sitekey="6LdbkHwUAAAAAJvx8E_O_Q7GkJ6474WHEH-R0haE"></div>
+                        <div class="g-recaptcha" align="middle" data-callback="recaptchaCallback" data-sitekey="6LdbkHwUAAAAAJvx8E_O_Q7GkJ6474WHEH-R0haE"></div>
                     </form>
                 </div>
             </div>

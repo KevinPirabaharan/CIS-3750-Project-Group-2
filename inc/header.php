@@ -15,7 +15,7 @@
        <script src='https://www.google.com/recaptcha/api.js'></script>
        <script>
            function recaptchaCallback() {
-               $('#sub').removeAttr('disabled');
+               $('#submit').removeAttr('disabled');
            }
        </script>
 

@@ -10,23 +10,25 @@ $login = $_GET['login'];
 $sql = "SELECT * FROM user";
 $result = $link->query($sql);
 
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["user_id"]. " - Name: " . $row["username"]. " password: " . $row["password"]. "  pinfo: ".$row["pinfo_id"]."<br>";
-    }
-} else {
-    echo "0 results";
-}
+
 
 if (isset($_POST['submit'])){
     $password = $_POST['password'];
     $username = $_POST['username'];
-    if ($password == "admin123" && $username == "admin@uoguelph.ca"){
-        $login = 1;
+    
+    if ($result->num_rows > 0) {
+    // output data of each row
+        while($row = $result->fetch_assoc()) {
+            if ($password == $row["password"] && $username == $row["username"]){
+                $login = 1;
+            } else {
+                $login = 0;
+            }
+           //echo "id: " . $row["user_id"]. " - Name: " . . " password: " . . "  pinfo: ".$row["pinfo_id"]."<br>";
+        }
     } else {
-        $login = 0;
-    }
+        echo "0 results";
+    }    
 }
 ?>
 

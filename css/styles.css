@@ -1,0 +1,11 @@
+.textbox {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.text-muted a {
+    text-decoration: none;
+    color:white;
+}

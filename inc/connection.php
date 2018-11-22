@@ -1,4 +1,43 @@
 <?PHP
+
+$db_servername = "18.216.74.209";
+$db_username = "root@localhost";
+$db_password = "orangeTeam";
+$db_databasename = "orange";
+
+/*
+$db_servername = "dursley.socs.uoguelph.ca";
+$db_username = "msnow01";
+$db_password = "0954174";
+$db_databasename = "msnow01";
+*/
+$link = mysqli_connect($db_servername, $db_username, $db_password, $db_databasename);
+
+if (!$link) {
+    echo "Error: Unable to connect to MySQL".mysqli_connect_error();
+} else {
+    echo "Success: A proper connection to MySQL was made! The my_db database is great.";
+    echo "Host information: " . mysqli_get_host_info($link);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //echo phpinfo();
 
 
@@ -15,22 +54,6 @@ if (!$conn) {
     mysql_select_db($db_databasename,$conn);
 	echo "<center>Successfully connected to the database!<br><br>"; // remove this in real scripts
 }*/
-
-
-  
-$db_servername = "18.216.74.209";
-$db_username = "root";
-$db_password = "orangeTeam";
-$db_databasename = "orange";
-
-$link = mysqli_connect($db_servername, $db_username, $db_password, $db_databasename);
-
-if (!$link) {
-    echo "Error: Unable to connect to MySQL".mysqli_connect_error();
-} else {
-    echo "Success: A proper connection to MySQL was made! The my_db database is great.";
-    echo "Host information: " . mysqli_get_host_info($link);
-}
 
 /*
 

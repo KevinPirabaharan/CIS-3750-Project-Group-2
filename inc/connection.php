@@ -1,7 +1,7 @@
 <?PHP
 
-$db_servername = "18.216.74.209";
-$db_username = "root@localhost";
+$db_servername = "localhost";
+$db_username = "root";
 $db_password = "orangeTeam";
 $db_databasename = "orange";
 

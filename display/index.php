@@ -6,7 +6,7 @@
     <title>Picturesque Designs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="shortcut icon" href="<?php echo $dir; ?>images/logo.png"/>
+    <link rel="shortcut icon" href="../images/logo.png"/>
     <script src="main.js"></script>
 </head>
 <body style="background-color: moccasin; font-size: 100%; color: saddlebrown;">

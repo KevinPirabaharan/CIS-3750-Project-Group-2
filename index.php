@@ -8,7 +8,7 @@ $title = "Home";
 $login = $_GET['login'];
     
 $sql = "SELECT * FROM user";
-$result = $conn->query($sql);
+$result = $link->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row

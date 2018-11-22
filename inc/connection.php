@@ -1,6 +1,6 @@
 <?PHP
 
-$db_servername = "18.216.74.209:3306";
+$db_servername = "localhost:3306";
 $db_username = "root";
 $db_password = "orangeTeam";
 $db_databasename = "orange";

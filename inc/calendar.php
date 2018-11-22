@@ -91,8 +91,16 @@
 }
     
 .calendar__day button {
-    border-radius: 0.5em;
-    border: 5px solid #41A7C7;
+    border-radius: 10.5em;
+    border: 2px solid #41A7C7;
+    background: transparent;
+    padding: 5px 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+    
+.calendar__day button:hover {
+    background: #41A7C7;
 }
 
 

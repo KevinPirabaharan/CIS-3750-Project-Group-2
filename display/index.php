@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Reynolds sign-in</title>
+    <title>Picturesque Designs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="shortcut icon" href="<?php echo $dir; ?>images/logo.png"/>
     <script src="main.js"></script>
 </head>
 <body style="background-color: moccasin; font-size: 100%; color: saddlebrown;">

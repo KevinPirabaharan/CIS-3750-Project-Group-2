@@ -85,10 +85,14 @@
     
 .calendar__day a {
     border-radius: 10.5em;
-    border: 2px solid #41A7C7;
+    border: 2px solid #f2f2f2;
     background: transparent;
     padding: 5px 10px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    width: 20px;
+    height: 20px;
+    -webkit-transition-duration: 0.4s;
+    color: black;
+    text-decoration: none;
     transition-duration: 0.4s;
 }
     

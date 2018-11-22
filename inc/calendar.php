@@ -16,38 +16,38 @@
       <div class="calendar__week">
           <?PHP
             for ($i = 1; $i <= 7; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a></div>';
             }
           ?>
       </div>
       <div class="calendar__week">
           <?PHP
             for ($i = 8; $i <= 14; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a></div>';
             }
           ?>
       </div>
       <div class="calendar__week">
           <?PHP
             for ($i = 15; $i <= 21; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a></div>';
             }
           ?>
       </div>
       <div class="calendar__week">
           <?PHP
             for ($i = 22; $i <= 28; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a></div>';
             }
           ?>
       </div>
       <div class="calendar__week">
           <?PHP
             for ($i = 29; $i <= 31; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a></div>';
             }
             for ($i = 1; $i <= 4; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day='.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=dec'.$i.'">'.$i.'</a></div>';
             }
           ?>
       </div>

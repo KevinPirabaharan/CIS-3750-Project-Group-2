@@ -10,9 +10,7 @@ $link = mysqli_connect($db_servername, $db_username, $db_password, $db_databasen
 if (!$link) {
     echo "Error: Unable to connect to MySQL".mysqli_connect_error();
 } else {
-    echo "Success: A proper connection to MySQL was made! The my_db database is great.";
-    echo "Host information: " . mysqli_get_host_info($link);
-    echo "THIS IS SUCCESSFUL";
+    //echo "Success: A proper connection to MySQL was made! The my_db database is great.";
 }
 
 ?>

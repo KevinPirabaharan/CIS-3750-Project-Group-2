@@ -5,6 +5,7 @@
 $dir = "";
 include $dir."inc/header.php";
 $title = "Home";
+$login = 0;
 $login = $_GET['login'];
     
 $sql = "SELECT * FROM user";
@@ -21,8 +22,6 @@ if (isset($_POST['submit'])){
         while($row = $result->fetch_assoc()) {
             if ($password == $row["password"] && $username == $row["username"]){
                 $login = 1;
-            } else {
-                $login = 0;
             }
            //echo "id: " . $row["user_id"]. " - Name: " . . " password: " . . "  pinfo: ".$row["pinfo_id"]."<br>";
         }

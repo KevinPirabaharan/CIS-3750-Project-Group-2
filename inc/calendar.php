@@ -92,9 +92,7 @@
     
 .calendar__day button {
     border-radius: 0.5em;
-    background-color:none;
-    border: 10px;
-    border-color: #41A7C7;
+    border: 5px solid #41A7C7;
 }
 
 
@@ -105,10 +103,6 @@
 sidebar {
   background-color: white;
   box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.2);
-}
-
-main {
-  background-color: #FCFBFC;
 }
 
 .avatar__name {

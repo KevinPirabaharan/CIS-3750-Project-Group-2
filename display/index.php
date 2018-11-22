@@ -160,7 +160,7 @@
         </tr>
 
         <tr>
-            <td colspan="2" style="align-content: center; text-align: center; vertical-align: 10%"><a href="../index.php"><img src="../images/logo.png" width="2%"> <br>Picturesque Designs</a> </td>
+            <td colspan="2" style="align-content: center; text-align: center; vertical-align: 10%"><a style="text-decoration:none" href="../index.php"><img src="../images/logo.png" width="2%"><br>Picturesque Designs</a></td>
         </tr>
     </table>
 

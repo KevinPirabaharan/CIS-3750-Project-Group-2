@@ -14,7 +14,7 @@
         <div>sun</div>
       </div>
       <div class="calendar__week">
-        <div class="calendar__day day">1</div>
+          <div class="calendar__day day"><button>1</button></div>
         <div class="calendar__day day">2</div>
         <div class="calendar__day day">3</div>
         <div class="calendar__day day">4</div>

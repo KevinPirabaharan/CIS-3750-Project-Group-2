@@ -60,13 +60,8 @@
       </div>
     </div>
 
-/**
- * ALL the UI design credit goes to:
- * https://www.sketchappsources.com/free-source/2676-calendar-template-sketch-freebie-resource.html
- */
-
-
 <style>
+    
 .toolbar{
   display: flex;
   justify-content: space-between;
@@ -94,22 +89,19 @@
 .calendar__day {
   padding: 16px;
 }
+    
+.calendar__day button {
+    border-radius: 0.5em;
+    background-color:none;
+    border: 10px;
+    border-color: #41A7C7;
+}
 
-
-
-
-/* COSMETIC STYLING */
 
 :root {
   --red: #ED5454;
 }
 
-/*body {
-  font-family: Montserrat;
-  font-weight: 100;
-  color: #A8B2B9;
-}
-*/
 sidebar {
   background-color: white;
   box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.2);

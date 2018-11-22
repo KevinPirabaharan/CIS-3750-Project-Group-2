@@ -16,6 +16,7 @@
             <p class="text-muted">Drafts</p>
             <p class="text-muted">Approvals</p>
             <p class="text-muted">Notifications</p>
+            <p class="text-muted"><a href="<?php echo $dir; ?>display/index.php?login=1">Display</p>
             <p class="text-muted"><a href="<?php echo $dir; ?>index.php?login=0">Logout</a></p>
         </div>
     </div>

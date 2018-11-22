@@ -6,6 +6,18 @@ $dir = "";
 include $dir."inc/header.php";
 $title = "Home";
 $login = $_GET['login'];
+    
+$sql = "SELECT * FROM user";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["user_id"]. " - Name: " . $row["username"]. " password: " . $row["password"]. "  pinfo: ".$row["pinfo_id"]."<br>";
+    }
+} else {
+    echo "0 results";
+}
 
 if (isset($_POST['submit'])){
     $password = $_POST['password'];

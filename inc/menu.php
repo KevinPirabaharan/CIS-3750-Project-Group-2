@@ -3,7 +3,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <img src="<?php echo $dir; ?>images/bell.png" style="margin-left:70px; position:absolute;" width="50px">
+        <a href="<?php echo $dir; ?>notifications/index.php?login=1";><img src="<?php echo $dir; ?>images/bell.png" style="margin-left:70px; position:absolute;" width="50px"></a>
         <h1 style="color:white;"><?php echo $title; ?></h1>
         <a href="<?php echo $dir; ?>index.php?login=1"><img src="<?php echo $dir; ?>images/logo.png" width="50px"></a>
     </nav>

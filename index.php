@@ -24,9 +24,6 @@ if (isset($_POST['submit'])){
             }
         }
     }
-    if ($login == 0){
-        echo "Your username or password is incorrect.";
-    }
 }
 ?>
 
@@ -43,9 +40,16 @@ if (isset($_POST['submit'])){
                     <form action="" method="post">
                         <p>Username: <input type="text" name="username"></p>
                         <p>Password: <input type="password" name="password"></p>
-                        <p><input type="submit" disabled name="submit" id="sub"></p>
-                        <p><a href="">Forgot Password?</a></p>
-                        <div class="g-recaptcha" align="middle" data-callback="recaptchaCallback" data-sitekey="6LdbkHwUAAAAAJvx8E_O_Q7GkJ6474WHEH-R0haE"></div>
+                        <p><input type="submit" disabled name="submit" id="sub"></p>';
+        if (isset($_POST['submit'])){
+            if ($login == 0){
+                echo '<p><span style="color: red;">Your username or password is incorrect.</span></p>';
+            }
+            
+        }
+                        
+        echo '<p><a href="">Forgot Password?</a></p>
+                <div class="g-recaptcha" align="middle" data-callback="recaptchaCallback" data-sitekey="6LdbkHwUAAAAAJvx8E_O_Q7GkJ6474WHEH-R0haE"></div>
                     </form>
                 </div>
             </div>

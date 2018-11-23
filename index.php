@@ -16,7 +16,6 @@ $result = $link->query($sql);
 if (isset($_POST['submit'])){
     $password = $_POST['password'];
     $username = $_POST['username'];
-    
     if ($result->num_rows > 0) {
     // output data of each row
         while($row = $result->fetch_assoc()) {
@@ -24,7 +23,10 @@ if (isset($_POST['submit'])){
                 $login = 1;
             }
         }
-    }   
+    }
+    if ($login == 0){
+        echo "Your username or password is incorrect.";
+    }
 }
 ?>
 
@@ -42,6 +44,7 @@ if (isset($_POST['submit'])){
                         <p>Username: <input type="text" name="username"></p>
                         <p>Password: <input type="password" name="password"></p>
                         <p><input type="submit" disabled name="submit" id="sub"></p>
+                        <p><a href="">Forgot Password?</a></p>
                         <div class="g-recaptcha" align="middle" data-callback="recaptchaCallback" data-sitekey="6LdbkHwUAAAAAJvx8E_O_Q7GkJ6474WHEH-R0haE"></div>
                     </form>
                 </div>

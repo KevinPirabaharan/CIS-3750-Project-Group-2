@@ -19,6 +19,8 @@ if (isset($_POST['submit'])){
     if ($result->num_rows > 0) {
     // output data of each row
         while($row = $result->fetch_assoc()) {
+            echo sha1($password)."<br>";
+            echo $row["passwd"];
             if (sha1($password) == $row["passwd"] && $username == $row["uName"]){
                 $login = 1;
             }

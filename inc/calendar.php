@@ -223,5 +223,9 @@ sidebar {
     padding: 0px;
     border:none;
 }
+    
+.star:hover{
+   cursor: pointer;
+}
 
 </style>

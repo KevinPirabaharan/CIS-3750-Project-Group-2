@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="../images/logo.png"/>
     <script src="main.js"></script>
 </head>
-<body style="background-color: moccasin; font-size: 100%; color: saddlebrown;">
+<body style="background-color: #73bcd1; font-size: 100%; color: black;">
     <table border="1" style="width: 100%; ">
         <tr>
             <td colspan="2">
@@ -30,7 +30,7 @@
             <td style="width:50%; height:350px; align-content:center; text-align:center; font-size:150%">
                 <b>Today's Events</b><div style="font-size :50%;">&emsp;</div>
 
-                <table style="font-size :90%;  border:1px solid SaddleBrown; width:100%;border-collapse: collapse;">
+                <table style="font-size :90%; width:100%;border-collapse: collapse;">
                     <tr>
                         <th>Time</th>
                         <th>Hall</th>
@@ -90,7 +90,7 @@
             <td colspan="1" style="font-size :200%; text-align :center; vertical-align: top; padding: .5%">
                 Co-op / Job Oppurtunities<br><div style="font-size :25%;">&emsp;</div>
 
-                <table style="font-size :65%; border:1px solid SaddleBrown; width:100%;border-collapse: collapse;">
+                <table style="font-size :65%; width:100%;border-collapse: collapse;">
                     <tr>
                         <th>Apply before</th>
                         <th>Position</th>
@@ -164,20 +164,6 @@
             <td colspan="2" style="align-content: center; text-align: center; vertical-align: 10%"><a style="text-decoration:none" href="../index.php"><img src="../images/logo.png" width="2%"><br>Picturesque Designs</a></td>
         </tr>
     </table>
-
-<!--
-    <br><br><br>
-    &emsp;&emsp;<a href="sign-in.html">Modify Signage</a><b>&emsp;&emsp;Members - Instructor: </b>
-
-    Dana Rea.&emsp;&emsp;&emsp;&emsp;
-
-    <b>Teaching Assistant:</b> Fanny Susilo, Nicolas Durish, Tamizhselvan Venkatesan.&emsp;&emsp;&emsp;&emsp;
-
-    <b>Project Lead:</b> Ahmed Mousa.&emsp;&emsp;&emsp;&emsp;
-    <b>Developers:</b> Jeremie Fraeys de Veubeke, Justin Wegner, Kevin Pirabaharan, Manoj Naick, Miriam Snow
-
-<br><br><br><br><br>
--->
     
 </body>
 </html>

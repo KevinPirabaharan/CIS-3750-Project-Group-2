@@ -36,7 +36,6 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    padding-left: 30px;
 }
 
 
@@ -61,14 +60,16 @@
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <h5 class="text-white h4">Menu</h5>
-    <p class="text-muted"><a href="<?php echo $dir; ?>index.php?login=1">Home</a></p>
-    <p class="text-muted"><a href="<?php echo $dir; ?>create/index.php?login=1">Create</a></p>
-    <p class="text-muted">Drafts</p>
-    <p class="text-muted">Approvals</p>
-    <p class="text-muted"><a href="<?php echo $dir; ?>index.php?login=0">Logout</a></p>
-    <br>
-    <p class="text-muted"><a href="<?php echo $dir; ?>display/index.php?login=1">Preview</a></p>
+    <span style="margin-left:30px";>
+        <h5 class="text-white h4">Menu</h5>
+        <p class="text-muted"><a href="<?php echo $dir; ?>index.php?login=1">Home</a></p>
+        <p class="text-muted"><a href="<?php echo $dir; ?>create/index.php?login=1">Create</a></p>
+        <p class="text-muted">Drafts</p>
+        <p class="text-muted">Approvals</p>
+        <p class="text-muted"><a href="<?php echo $dir; ?>index.php?login=0">Logout</a></p>
+        <br>
+        <p class="text-muted"><a href="<?php echo $dir; ?>display/index.php?login=1">Preview</a></p>
+    </span>
 </div>
 
     <nav class="navbar navbar-dark" style="background-color: #41A7C7">

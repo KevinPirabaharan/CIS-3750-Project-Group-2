@@ -17,10 +17,10 @@
           <?PHP
             for ($i = 1; $i <= 7; $i++){
                 echo '<div class="calendar__day day">';
+                echo '<a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a><br><br>';
                 if ($i == 3){
                     echo '<button type="button" class="star" data-toggle="popover" title="Job Opportunities" data-content="5-6pm, Foyer 2"><i class="material-icons">grade</i></button>';
                 }
-                echo '<a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a>';
                 echo '</div>';
                 
             }
@@ -221,11 +221,15 @@ sidebar {
 .star {
     background:transparent;
     padding: 0px;
-    border:none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
 }
     
 .star:hover{
-   cursor: pointer;
+    cursor: pointer;
+    border-bottom: solid;
 }
 
 </style>

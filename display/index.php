@@ -20,7 +20,6 @@
                         <td style="width: 15%; align-content: center; "><img src="../images/uofg_cornerstone_red.png" width="40%" style="padding-left: 10%; padding-right: 5%;"></td>
                     </tr>
                     <tr>
-                        <td colspan="3"> <hr style=" border-color: saddlebrown"> </td>
                     </tr>
                 </table>
             </td>

@@ -16,7 +16,13 @@
       <div class="calendar__week">
           <?PHP
             for ($i = 1; $i <= 7; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day">';
+                echo '<a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a>';
+                if ($i == 1){
+                    echo "<i class="material-icons">grade</i>"
+                }
+                echo '</div>';
+                
             }
           ?>
       </div>

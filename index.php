@@ -41,6 +41,7 @@ if (isset($_POST['submit'])){
                         <p>Username: <input type="text" name="username"></p>
                         <p>Password: <input type="password" name="password"></p>
                         <div class="g-recaptcha" align="middle" data-callback="recaptchaCallback" data-sitekey="6LdbkHwUAAAAAJvx8E_O_Q7GkJ6474WHEH-R0haE"></div>
+                        <br>
                         <p><input type="submit" disabled name="submit" id="sub"></p>';
         if (isset($_POST['submit'])){
             if ($login == 0){

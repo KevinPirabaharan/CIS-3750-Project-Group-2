@@ -19,7 +19,7 @@
                 echo '<div class="calendar__day day">';
                 echo '<a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a>';
                 if ($i == 3){
-                    echo "<i class='material-icons'>grade</i>"
+                    echo '<i class="material-icons">grade</i>';
                 }
                 echo '</div>';
                 

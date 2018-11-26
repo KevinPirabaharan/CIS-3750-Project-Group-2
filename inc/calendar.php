@@ -18,7 +18,7 @@
             for ($i = 1; $i <= 7; $i++){
                 echo '<div class="calendar__day day">';
                 if ($i == 3){
-                    echo '<i class="material-icons">grade</i>';
+                    echo '<button type="button" data-toggle="popover" title="Popover title" data-content="Slideshow scheduled for 5-6pm"><i class="material-icons">grade</i></button>';
                 }
                 echo '<a href="../create/index.php?login=1&day=nov'.$i.'">'.$i.'</a>';
                 echo '</div>';

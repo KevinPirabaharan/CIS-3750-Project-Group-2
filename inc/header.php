@@ -16,6 +16,9 @@
            function recaptchaCallback() {
                $('#sub').removeAttr('disabled');
            }
+           $(function () {
+                $('[data-toggle="popover"]').popover()
+            })
        </script>
 
    </head>

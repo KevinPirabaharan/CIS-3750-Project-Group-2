@@ -1,4 +1,4 @@
-<?PHP include "../css/styles.css"; ?>   
+<link rel="stylesheet" href="../css/styles.css">  
 
 <div class="toolbar">
         <button class="arrow"><i class="material-icons">navigate_before</i></button>

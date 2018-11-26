@@ -23,7 +23,7 @@
 </div>-->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<?PHP include "../css/styles.css"; ?>
+<link rel="stylesheet" href="../css/styles.css">  
 
 
 <div id="mySidenav" class="sidenav">

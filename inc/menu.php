@@ -74,9 +74,12 @@
   <a href="#">Contact</a>
 </div>
 
-<h2>Animated Sidenav Example</h2>
-<p>Click on the element below to open the side navigation menu.</p>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <nav class="navbar navbar-dark" style="background-color: #41A7C7">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <img src="<?php echo $dir; ?>images/bell.png" style="margin-left:70px; position:absolute;" width="50px">
+        <h1 style="color:white;"><?php echo $title; ?></h1>
+        <a href="<?php echo $dir; ?>index.php?login=1"><img src="<?php echo $dir; ?>images/logo.png" width="50px"></a>
+    </nav>
 
 <script>
 function openNav() {

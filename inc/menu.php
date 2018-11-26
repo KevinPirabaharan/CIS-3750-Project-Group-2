@@ -68,14 +68,18 @@
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <h5 class="text-white h4">Menu</h5>
+    <p class="text-muted"><a href="<?php echo $dir; ?>index.php?login=1">Home</a></p>
+    <p class="text-muted"><a href="<?php echo $dir; ?>create/index.php?login=1">Create</a></p>
+    <p class="text-muted">Drafts</p>
+    <p class="text-muted">Approvals</p>
+    <p class="text-muted"><a href="<?php echo $dir; ?>index.php?login=0">Logout</a></p>
+    <br>
+    <p class="text-muted"><a href="<?php echo $dir; ?>display/index.php?login=1">Preview</a></p>
 </div>
 
     <nav class="navbar navbar-dark" style="background-color: #41A7C7">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <span style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776;</span>
         <img src="<?php echo $dir; ?>images/bell.png" style="margin-left:70px; position:absolute;" width="50px">
         <h1 style="color:white;"><?php echo $title; ?></h1>
         <a href="<?php echo $dir; ?>index.php?login=1"><img src="<?php echo $dir; ?>images/logo.png" width="50px"></a>

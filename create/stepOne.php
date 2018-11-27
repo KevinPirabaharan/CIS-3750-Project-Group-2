@@ -12,24 +12,17 @@ include $dir."inc/menu.php";
 <body>
         <div class="textbox">
             <h1>Create New Slide</h1><br>
-            <form method="get" action="">
-            <div class="row">
-                <div class="col-md-12">
+                <form method="get" action="">
                     <img src="../images/2x2.jpg" class="gridImg">
                     <img src="../images/3x3.jpg" class="gridImg">
                     <img src="../images/3x1.jpg" class="gridImg">
                     <img src="../images/varied.jpg" class="gridImg">
-                </div>
-                <div class="col-md-12">
+                    <br>
                     <input class="gridRadio" style="margin-left:75px" type="radio">
                     <input class="gridRadio" style="margin-left:150px" disabled type="radio">
                     <input class="gridRadio" style="margin-left:150px" disabled type="radio">
                     <input class="gridRadio" style="margin-left:150px" disabled type="radio">
-                </div>
-            </div>
-            
-            
-            </form>
+                </form>
         </div>
         </body>
     

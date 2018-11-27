@@ -21,10 +21,10 @@ include $dir."inc/menu.php";
                     <img src="../images/varied.jpg" class="gridImg">
                 </div>
                 <div class="col-md-12">
-                    <input class="gridRadio" type="radio">
-                    <input class="gridRadio" disabled type="radio">
-                    <input class="gridRadio" disabled type="radio">
-                    <input class="gridRadio" disabled type="radio">
+                    <input class="gridRadio" style="margin-left:75px" type="radio">
+                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
                 </div>
             </div>
             
@@ -43,7 +43,8 @@ include $dir."inc/menu.php";
 }
 
 .gridRadio {
-    margin-left: 5.5%;
+    width:20%;
+    
 }
     
 </style>

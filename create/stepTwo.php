@@ -13,7 +13,7 @@ include $dir."inc/menu.php";
     <div class="textbox">
         <h1>Create New Slide</h1><br>
             <form method="get" action="index.php">
-                <table border="1">
+                <table border="1" cellpadding="50">
                 <tr>
                 <td>
                     <select>

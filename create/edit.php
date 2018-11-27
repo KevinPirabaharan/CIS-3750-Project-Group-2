@@ -19,7 +19,7 @@ if (isset($_POST['submit'])){
     $result = $link->query($sql3);
     $count = $result->num_rows;
     
-    $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition, date) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition.", '".$day."'")";  
+    $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition, date) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition."', '".$day."')";  
 }
     
 ?>

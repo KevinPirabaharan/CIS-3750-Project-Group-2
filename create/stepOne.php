@@ -50,7 +50,7 @@ include $dir."inc/menu.php";
 }
 
 .gridRadio {
-    margin-left:17%;
+    margin-left:65px;
 }
     
 </style>

@@ -84,7 +84,7 @@ if (isset($_POST['submit'])){
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
                     </select><br> 
-                    <input required name="content1" type="text">
+                    <input name="content1" type="text">
                 </td>  
                 <td>
                     <select required name="2">
@@ -92,7 +92,7 @@ if (isset($_POST['submit'])){
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
                     </select><br>
-                    <input required name="content2" type="text">
+                    <input name="content2" type="text">
                 </td>
                 </tr>
                 <tr>
@@ -102,7 +102,7 @@ if (isset($_POST['submit'])){
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
                     </select><br>
-                    <input required name="content3" type="text">
+                    <input name="content3" type="text">
                 </td>  
                 <td>
                     <select required name="4">
@@ -110,7 +110,7 @@ if (isset($_POST['submit'])){
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
                     </select><br>
-                    <input required name="content4" type="text">
+                    <input name="content4" type="text">
                 </td>
                 </tr>
                 </table>

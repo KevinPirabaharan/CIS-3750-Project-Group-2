@@ -15,10 +15,10 @@ include $dir."inc/menu.php";
             <form method="get" action="">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="../images/2x2.jpg">
+                    <img src="../images/2x2.jpg" class="gridImg">
                 </div>
                 <div class="col-md-12">
-                    <input type="radio">
+                    <input class="gridRadio" type="radio">
                 </div>
             </div>
             

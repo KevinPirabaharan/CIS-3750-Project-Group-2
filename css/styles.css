@@ -9,3 +9,12 @@
     text-decoration: none;
     color:white;
 }
+
+.gridImg {
+    width:150px;
+    height:150px;
+}
+
+.gridRadio {
+    margin-left: 75px;
+}

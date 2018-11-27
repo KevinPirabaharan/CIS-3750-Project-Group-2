@@ -40,7 +40,7 @@ $day = $_GET['day'];
                   <option value="Peel">Peel Off</option>
                 </select></p>
                 <br>
-                <a href="stepTwo.php?<?php echo $day; ?>">Continue&nbsp;<i class="material-icons">arrow_right_alt</i></a>
+                <a href="stepTwo.php?day=<?php echo $day; ?>">Continue&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>
         </body>

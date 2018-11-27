@@ -88,7 +88,7 @@ if (isset($_POST['submit'])){
                 <option value="Fade">Fade</option>
                 <option value="Wipe">Wipe</option>
                 <option value="Dissolve">Dissolve</option>
-                <option value="Peel">Peel Off</option>
+                <option value="Peel Off">Peel Off</option>
                 </select></p> 
                 </div>
                     
@@ -104,36 +104,44 @@ if (isset($_POST['submit'])){
                 <td>
                     <select required name="type1">
                       <option value="Weather">Weather</option>
-                      <option value="Time">Time</option>
+                      <option value="Time">Date &amp; Time</option>
                       <option value="Text">Text</option>
+                      <option value="Video">Video Link</option>
+                      <option value="Twitter">Twitter Feed</option>
                     </select><br> 
-                    <input name="content1" type="text">
+                    <input name="content1" placeholder="Content goes here" required type="text">
                 </td>  
                 <td>
                     <select required name="type2">
                       <option value="Weather">Weather</option>
-                      <option value="Time">Time</option>
+                      <option value="Time">Date &amp; Time</option>
                       <option value="Text">Text</option>
+                      <option value="Video">Video Link</option>
+                      <option value="Twitter">Twitter Feed</option>
                     </select><br>
-                    <input name="content2" type="text">
+                    <input name="content2" placeholder="Content goes here" required type="text">
                 </td>
                 </tr>
                 <tr>
                 <td>
                     <select required name="type3">
                       <option value="Weather">Weather</option>
-                      <option value="Time">Time</option>
+                      <option value="Time">Date &amp; Time</option>
                       <option value="Text">Text</option>
+                      <option value="Video">Video Link</option>
+                      <option value="Twitter">Twitter Feed</option>
                     </select><br>
-                    <input name="content3" type="text">
+                    <input name="content3" placeholder="Content goes here" required type="text">
                 </td>  
                 <td>
                     <select required name="type4">
                       <option value="Weather">Weather</option>
-                      <option value="Time">Time</option>
+                      <option value="Time">Date &amp; Time</option>
                       <option value="Text">Text</option>
+                      <option value="Video">Video Link</option>
+                      <option value="Twitter">Twitter Feed</option>
                     </select><br>
-                    <input name="content4" type="text">
+                    <input name="content4" placeholder="Content goes here" required type="text">
                 </td>
                 </tr>
                 </table>

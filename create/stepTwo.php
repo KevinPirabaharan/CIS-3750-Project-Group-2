@@ -12,7 +12,7 @@ include $dir."inc/menu.php";
 <body>
     <div class="textbox">
         <h1>Create New Slide</h1><br>
-            <form method="get" action="../index.php?login=1">
+            <form method="get" action="">
                 <table border="1" cellpadding="50">
                 <tr>
                 <td>
@@ -51,7 +51,7 @@ include $dir."inc/menu.php";
                 </td>
                 </tr>
                 </table>
-                <input type="submit" name="submit" value="Submit">
+                <a href="index.php?login=1">Continue&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>
     </body>

@@ -12,7 +12,7 @@ include $dir."inc/menu.php";
 <body>
         <div class="textbox">
         <h1>Create New Slide</h1><br>
-            <form method="get" action="stepTwo.php">
+            <form method="get">
                 <div class="row">
                 <div class="col-md-3">
                     <img src="../images/2x2.jpg" class="gridImg"><br>
@@ -41,7 +41,7 @@ include $dir."inc/menu.php";
                   <option value="Peel">Peel Off</option>
                 </select></p>
                 
-                <input type="submit" name="submit" value="Continue">
+                <a href="stepTwo.php">Continue&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>
         </body>

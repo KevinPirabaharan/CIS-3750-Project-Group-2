@@ -16,9 +16,9 @@ if (isset($_POST['submit'])){
     $background = $_POST['background'];
     
     echo $transition."<br>".$gridLayout."<br>".$background."<br>";
-    $sql2 = "INSERT INTO slides (bgColor, grid, transition) VALUES (".$background.", ".$gridLayout.", ".$transition.")";
+    $sql2 = "INSERT INTO slides (bgColor, grid, transition) VALUES ('".$background."', '".$gridLayout."', '".$transition."')";
     echo $sql2."<br>";
-    if ($mysqli->query($link,$sql2) === TRUE) {
+    if (mysqli_real_query($link, $sql2) == TRUE) {
         echo "successfully inserted";
     } else {
         echo "sorry not working";

@@ -6,7 +6,7 @@ $dir = "../";
 $title = "Create";
 include $dir."inc/header.php";
 include $dir."inc/menu.php";
-
+$day = $_GET['day'];
 ?>
 
 <body>
@@ -52,7 +52,7 @@ include $dir."inc/menu.php";
                 </tr>
                 </table>
                 <br>
-                <a href="../index.php?login=1">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a>
+                <a href="../index.php?login=1&day=<?php echo $day; ?>">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>
     </body>

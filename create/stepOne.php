@@ -6,7 +6,7 @@ $dir = "../";
 $title = "Create";
 include $dir."inc/header.php";
 include $dir."inc/menu.php";
-
+$day = $_GET['day'];
 ?>
 
 <body>
@@ -33,7 +33,6 @@ include $dir."inc/menu.php";
                 </div>
                 <br>
                 <p>Background Color: <input type="color"></p><br>
-                
                 <p>Transition: <select>
                   <option value="Fade">Fade</option>
                   <option value="Wipe">Wipe</option>
@@ -41,7 +40,7 @@ include $dir."inc/menu.php";
                   <option value="Peel">Peel Off</option>
                 </select></p>
                 <br>
-                <a href="stepTwo.php">Continue&nbsp;<i class="material-icons">arrow_right_alt</i></a>
+                <a href="stepTwo.php?<?php echo $day; ?>">Continue&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>
         </body>

@@ -16,19 +16,19 @@ include $dir."inc/menu.php";
                 <div class="row">
                 <div class="col-md-3">
                     <img src="../images/2x2.jpg" class="gridImg"><br>
-                    <input class="gridRadio" style="margin-left:75px" type="radio">
+                    <input class="gridRadio" type="radio">
                 </div>
                 <div class="col-md-3">
                     <img src="../images/3x3.jpg" class="gridImg"><br>
-                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                    <input class="gridRadio" disabled type="radio">
                 </div>
                 <div class="col-md-3">
                     <img src="../images/3x1.jpg" class="gridImg"><br>
-                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                    <input class="gridRadio" disabled type="radio">
                 </div>
                 <div class="col-md-3">
                     <img src="../images/varied.jpg" class="gridImg">
-                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                    <input class="gridRadio" disabled type="radio">
                 </div>
                 
                 </div>
@@ -50,8 +50,7 @@ include $dir."inc/menu.php";
 }
 
 .gridRadio {
-    width:20%;
-    
+    margin-left:17%;
 }
     
 </style>

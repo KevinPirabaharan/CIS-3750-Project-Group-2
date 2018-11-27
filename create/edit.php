@@ -14,7 +14,7 @@ $day = $_GET['day'];
         <h1>Create New Slide</h1><br>
             <form method="get" action="">
                 <div class="row">
-                <!--<div class="col-md-1">
+                <div class="col-md-1">
                     <img src="../images/2x2.jpg" class="gridImg"><br>
                     <input class="gridRadio" checked type="radio">
                 </div>
@@ -29,15 +29,7 @@ $day = $_GET['day'];
                 <div class="col-md-3">
                     <img src="../images/varied.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
-                </div>-->
-                <div class="col-md-4">
-                <p>Grid Layout: <select>
-                <option value="2x2"><img src="../images/2x2.jpg" class="gridImg"></option>
-                <option value="3x3"><img src="../images/3x3.jpg" class="gridImg"></option>
-                <option value="3x1"><img src="../images/3x1.jpg" class="gridImg"></option>
-                <option value="varied"><img src="../images/varied.jpg" class="gridImg"></option>
-                </select></p>
-                    </div>
+                </div>
                   
                     
                 <div class="col-md-2">

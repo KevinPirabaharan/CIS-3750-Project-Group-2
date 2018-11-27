@@ -5,6 +5,7 @@
 $dir = "../";
 $title = "Create";
 include $dir."inc/header.php";
+include $dir."inc/connection.php";
 include $dir."inc/menu.php";
 $day = $_GET['day'];
     
@@ -14,10 +15,13 @@ if (isset($_POST['submit'])){
     $gridLayout = $_POST['gridLayout'];
     $background = $_POST['background'];
     
-    echo $transition."<br>".$gridLayout."<br>".$background;
-    $sql2 = "INSERT INTO slides (bgColor, grid, transition) VALUES ($background, $gridLayout, $transition)";
+    echo $transition."<br>".$gridLayout."<br>".$background."<br>";
+    $sql2 = "INSERT INTO slides (bgColor, grid, transition) VALUES (".$background.", ".$gridLayout.", ".$transition.")";
+    echo $sql2."<br>";
     if ($mysqli->query($link,$sql2) === TRUE) {
         echo "successfully inserted";
+    } else {
+        echo "sorry not working";
     }
     
 }

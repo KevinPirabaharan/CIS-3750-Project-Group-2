@@ -105,9 +105,9 @@ $day = $_GET['day'];
                 </div>-->
                 <br>
                 <img src="../images/widgets.png">
-                <br>
+                <br><br>
                 
-                <button><a href="../index.php?login=1">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a></button>
+                <button><a style="color: black; text-decoration:none;" href="../index.php?login=1">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a></button>
             </form>
         </div>
     </body>

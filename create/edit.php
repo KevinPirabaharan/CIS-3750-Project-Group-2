@@ -9,7 +9,7 @@ include $dir."inc/menu.php";
 $day = $_GET['day'];
     
     
-if (isset($_POST['submit']){
+if (isset($_POST['submit'])){
     
     echo "Your slide has been saved.";
     echo "Click <a href='../index.php?login=1'>here</a> to go back to the home page";

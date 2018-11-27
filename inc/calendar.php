@@ -26,7 +26,7 @@
                     $dbDay = $row['date'];
                     $calDay = "Nov".$i;
                     if ($dbDay == $calDay){
-                        echo '<button type="button" class="star" data-toggle="popover" title="November $i" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
+                        echo '<button type="button" class="star" data-toggle="popover" title="November '.$i.'" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
                     }
                 }
                 
@@ -38,31 +38,93 @@
       <div class="calendar__week">
           <?PHP
             for ($i = 8; $i <= 14; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a><br><br>';
+                
+                $sql4 = "SELECT * FROM slides";
+                $result2 = $link->query($sql4);  
+                while($row = $result2->fetch_assoc()) {
+                    $dbDay = $row['date'];
+                    $calDay = "Nov".$i;
+                    if ($dbDay == $calDay){
+                        echo '<button type="button" class="star" data-toggle="popover" title="November '.$i.'" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
+                    }
+                }
+                
+                echo '</div>';
             }
           ?>
       </div>
       <div class="calendar__week">
           <?PHP
             for ($i = 15; $i <= 21; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a>';
+                
+                
+                $sql4 = "SELECT * FROM slides";
+                $result2 = $link->query($sql4);  
+                while($row = $result2->fetch_assoc()) {
+                    $dbDay = $row['date'];
+                    $calDay = "Nov".$i;
+                    if ($dbDay == $calDay){
+                        echo '<button type="button" class="star" data-toggle="popover" title="November '.$i.'" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
+                    }
+                }
+                
+                echo'</div>';
             }
           ?>
       </div>
       <div class="calendar__week">
           <?PHP
             for ($i = 22; $i <= 28; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a>';
+                
+                $sql4 = "SELECT * FROM slides";
+                $result2 = $link->query($sql4);  
+                while($row = $result2->fetch_assoc()) {
+                    $dbDay = $row['date'];
+                    $calDay = "Nov".$i;
+                    if ($dbDay == $calDay){
+                        echo '<button type="button" class="star" data-toggle="popover" title="November '.$i.'" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
+                    }
+                }
+                
+                echo '</div>';
             }
           ?>
       </div>
       <div class="calendar__week">
           <?PHP
             for ($i = 29; $i <= 31; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a>';
+                
+                $sql4 = "SELECT * FROM slides";
+                $result2 = $link->query($sql4);  
+                while($row = $result2->fetch_assoc()) {
+                    $dbDay = $row['date'];
+                    $calDay = "Nov".$i;
+                    if ($dbDay == $calDay){
+                        echo '<button type="button" class="star" data-toggle="popover" title="November '.$i.'" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
+                    }
+                }
+                
+                
+                echo '</div>';
             }
             for ($i = 1; $i <= 4; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=dec'.$i.'">'.$i.'</a></div>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=dec'.$i.'">'.$i.'</a>';
+                
+                $sql4 = "SELECT * FROM slides";
+                $result2 = $link->query($sql4);  
+                while($row = $result2->fetch_assoc()) {
+                    $dbDay = $row['date'];
+                    $calDay = "Nov".$i;
+                    if ($dbDay == $calDay){
+                        echo '<button type="button" class="star" data-toggle="popover" title="December '.$i.'" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
+                    }
+                }
+                
+                echo '</div>';
             }
           ?>
       </div>

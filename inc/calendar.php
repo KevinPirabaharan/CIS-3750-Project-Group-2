@@ -112,7 +112,7 @@
                 echo '</div>';
             }
             for ($i = 1; $i <= 4; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=dec'.$i.'">'.$i.'</a><br><br>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Dec'.$i.'">'.$i.'</a><br><br>';
                 
                 $sql4 = "SELECT * FROM slides";
                 $result2 = $link->query($sql4);  

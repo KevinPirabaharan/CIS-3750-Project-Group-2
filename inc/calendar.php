@@ -25,7 +25,9 @@
                 while($row = $result2->fetch_assoc()) {
                     $dbDay = $row['date'];
                     $calDay = "Nov".$i;
+                    echo $dbDay."<br>".$calDay."<br>";
                     if ($dbDay == $calDay){
+                        echo "Test";
                         echo '<button type="button" class="star" data-toggle="popover" title="Job Opportunities" data-content="5-6pm, Foyer 2"><i class="material-icons">grade</i></button>';
                     }
                 }

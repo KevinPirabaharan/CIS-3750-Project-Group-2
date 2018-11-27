@@ -9,19 +9,35 @@ include $dir."inc/menu.php";
 $day = $_GET['day'];
     
     
-if (isset($_POST['submit'])){
+if (isset($_POST['submit'])){ 
+    $transition = $_POST['transition'];
+    $gridLayout = $_POST['gridLayout'];
+    $background = $_POST['background'];
     
-    echo "Your slide has been saved.";
-    echo "Click <a href='../index.php?login=1'>here</a> to go back to the home page";
+    echo $transition."<br>".$gridLayout."<br>".$background;
     
     
-} else {  
+    
+}
+    
+    ?>
 
-?>
 
 <body>
     <div class="textbox">
         <h1>Create New Slide</h1><br>
+            <?php if (isset($_POST['submit'])){
+
+            echo "Your slide has been saved! <br>";
+            echo "Click <a href='../index.php?login=1'>here</a> to go back to the home page";
+
+
+        } else {  
+
+        ?>
+        
+        
+        
             <form method="post" action="">
                 <div class="row">
                 <div class="col-md-1">
@@ -101,11 +117,12 @@ if (isset($_POST['submit'])){
                 <img src="../images/widgets.png">
                 <br><br>
                 
-                <button name="cancel"><a style="color: black; text-decoration:none;" href="../index.php?login=1">Cancel</a></button>&nbsp;&nbs;&nbsp;<input type="submit" name="submit" value="Save">
+                <button name="cancel"><a style="color: black; text-decoration:none;" href="index.php?login=1?day=<?php echo $day; ?>">Cancel</a></button>&nbsp;&nbs;&nbsp;<input type="submit" name="submit" value="Save">
             </form>
+     <?php } ?> 
         </div>
     </body>
- <?php } ?>   
+  
 <style>
 .gridImg {
     width:50px;

@@ -9,12 +9,13 @@ include $dir."inc/menu.php";
 $day = $_GET['day'];
     
     
-if ($_POST['finish']){
+if (isset($_POST['submit']){
     
-    echo "Text info";
+    echo "Your slide has been saved.";
+    echo "Click <a href='../index.php?login=1'>here</a> to go back to the home page";
     
     
-}    
+} else {  
 
 ?>
 
@@ -100,11 +101,11 @@ if ($_POST['finish']){
                 <img src="../images/widgets.png">
                 <br><br>
                 
-                <button name="finish"><a style="color: black; text-decoration:none;" href="../index.php?login=1">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a></button>
+                <button name="cancel"><a style="color: black; text-decoration:none;" href="../index.php?login=1">Cancel</a></button>&nbsp;&nbs;&nbsp;<input type="submit" name="submit" value="Save">
             </form>
         </div>
     </body>
-    
+ <?php } ?>   
 <style>
 .gridImg {
     width:50px;

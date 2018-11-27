@@ -39,7 +39,9 @@ include $dir."inc/menu.php";
                   <option value="Wipe">Wipe</option>
                   <option value="Dissolve">Dissolve</option>
                   <option value="Peel">Peel Off</option>
-                    </select></p>
+                </select></p>
+                
+                <input type="submit" name="submit" value="name">
             </form>
         </div>
         </body>

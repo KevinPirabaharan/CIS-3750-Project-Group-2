@@ -31,8 +31,9 @@ include $dir."inc/menu.php";
                     <input class="gridRadio" type="radio">
                 </div>
                 </div>
-                <p>Background Color: <input type="color"></p>
-                <select>
+                <p>Background Color: <input type="color"></p><br>
+                
+                <p>Transition: </p><select>
                   <option value="Fade">Fade</option>
                   <option value="Wipe">Wipe</option>
                   <option value="Dissolve">Dissolve</option>

@@ -26,7 +26,7 @@
                     $dbDay = $row['date'];
                     $calDay = "Nov".$i;
                     if ($dbDay == $calDay){
-                        echo '<button type="button" class="star" data-toggle="popover" title="Job Opportunities" data-content="5-6pm, Foyer 2"><i class="material-icons">grade</i></button>';
+                        echo '<button type="button" class="star" data-toggle="popover" title="November $i" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
                     }
                 }
                 

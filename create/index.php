@@ -7,6 +7,9 @@ $title = "Create";
 include $dir."inc/header.php";
 include $dir."inc/menu.php";
 $day = $_GET['day'];
+    if (!$day){
+        $day = date();
+    }
 ?>
 
 <body>

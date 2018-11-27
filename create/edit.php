@@ -12,21 +12,21 @@ $day = $_GET['day'];
 <body>
     <div class="textbox">
         <h1>Create New Slide</h1><br>
-            <form method="get" action="">
+            <form method="get" action="../index.php?login=1">
                 <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/2x2.jpg" class="gridImg"><br>
                     <input class="gridRadio" type="radio">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/3x3.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/3x1.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <img src="../images/varied.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
                 </div>
@@ -45,7 +45,7 @@ $day = $_GET['day'];
                 </div>
                 </div>
                 
-                
+                <br><br>
                 
                 <table border="1" cellpadding="50">
                 <tr>
@@ -103,8 +103,8 @@ $day = $_GET['day'];
                 
                 
                 </div>-->
-                <a href="../index.php?login=1&day=<?php echo $day; ?>">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a>
-            </form>
+                <input type="submit" name="submit" value="Submit">
+                </form>
         </div>
     </body>
     

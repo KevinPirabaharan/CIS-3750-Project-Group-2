@@ -20,22 +20,17 @@ include $dir."inc/menu.php";
                 </div>
                 <div class="col-md-3">
                     <img src="../images/3x3.jpg" class="gridImg"><br>
-                    <input class="gridRadio" disabled type="radio">
+                    <input class="gridRadio" type="radio">
                 </div>
                 <div class="col-md-3">
                     <img src="../images/3x1.jpg" class="gridImg"><br>
-                    <input class="gridRadio" disabled type="radio">
+                    <input class="gridRadio" type="radio">
                 </div>
                 <div class="col-md-3">
                     <img src="../images/varied.jpg" class="gridImg"><br>
-                    <input class="gridRadio" disabled type="radio">
+                    <input class="gridRadio" type="radio">
                 </div>
-                
-                </div>
-                
-               
-                
-                
+                </div>  
             </form>
         </div>
         </body>

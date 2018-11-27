@@ -27,7 +27,7 @@ include $dir."inc/menu.php";
                     <input class="gridRadio" disabled type="radio">
                 </div>
                 <div class="col-md-3">
-                    <img src="../images/varied.jpg" class="gridImg">
+                    <img src="../images/varied.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
                 </div>
                 

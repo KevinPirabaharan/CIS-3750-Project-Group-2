@@ -10,14 +10,51 @@ include $dir."inc/menu.php";
 ?>
 
 <body>
-        <div class="textbox">
+    <div class="textbox">
         <h1>Create New Slide</h1><br>
             <form method="get" action="index.php">
-                
+                <table>
+                <tr>
+                <td>
+                    <select>
+                      <option value="Weather">Weather</option>
+                      <option value="Time">Time</option>
+                      <option value="Text">Text</option>
+                    </select>  
+                    <input type="text">
+                </td>  
+                <td>
+                    <select>
+                      <option value="Weather">Weather</option>
+                      <option value="Time">Time</option>
+                      <option value="Text">Text</option>
+                    </select>  
+                    <input type="text">
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <select>
+                      <option value="Weather">Weather</option>
+                      <option value="Time">Time</option>
+                      <option value="Text">Text</option>
+                    </select>  
+                    <input type="text">
+                </td>  
+                <td>
+                    <select>
+                      <option value="Weather">Weather</option>
+                      <option value="Time">Time</option>
+                      <option value="Text">Text</option>
+                    </select>  
+                    <input type="text">
+                </td>
+                </tr>
+                </table>
                 <input type="submit" name="submit" value="Submit">
             </form>
         </div>
-        </body>
+    </body>
     
 <style>
     

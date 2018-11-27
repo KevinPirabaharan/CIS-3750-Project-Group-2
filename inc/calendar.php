@@ -57,7 +57,7 @@
       <div class="calendar__week">
           <?PHP
             for ($i = 15; $i <= 21; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a><br><br>';
                 
                 
                 $sql4 = "SELECT * FROM slides";
@@ -77,7 +77,7 @@
       <div class="calendar__week">
           <?PHP
             for ($i = 22; $i <= 28; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a><br><br>';
                 
                 $sql4 = "SELECT * FROM slides";
                 $result2 = $link->query($sql4);  
@@ -96,7 +96,7 @@
       <div class="calendar__week">
           <?PHP
             for ($i = 29; $i <= 31; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a><br><br>';
                 
                 $sql4 = "SELECT * FROM slides";
                 $result2 = $link->query($sql4);  
@@ -112,7 +112,7 @@
                 echo '</div>';
             }
             for ($i = 1; $i <= 4; $i++){
-                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=dec'.$i.'">'.$i.'</a>';
+                echo '<div class="calendar__day day"><a href="../create/index.php?login=1&day=dec'.$i.'">'.$i.'</a><br><br>';
                 
                 $sql4 = "SELECT * FROM slides";
                 $result2 = $link->query($sql4);  

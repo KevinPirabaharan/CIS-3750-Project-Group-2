@@ -12,7 +12,7 @@ include $dir."inc/menu.php";
 <body>
     <div class="textbox">
         <h1>Create New Slide</h1><br>
-            <form method="get" action="../index.php">
+            <form method="get" action="../index.php?login=1">
                 <table border="1" cellpadding="50">
                 <tr>
                 <td>

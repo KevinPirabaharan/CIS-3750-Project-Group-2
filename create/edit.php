@@ -14,12 +14,29 @@ if (isset($_POST['submit'])){
     $transition = $_POST['transition'];
     $gridLayout = $_POST['gridLayout'];
     $background = $_POST['background'];
+    $type1 = $_POST['type1'];
+    $type2 = $_POST['type2'];
+    $type3 = $_POST['type3'];
+    $type4 = $_POST['type4'];
+    $content1 = $_POST['content1'];
+    $content2 = $_POST['content2'];
+    $content3 = $_POST['content3'];
+    $content4 = $_POST['content4'];
     
     $sql3 = "SELECT * FROM slides";
     $result = $link->query($sql3);
     $count = $result->num_rows;
     
-    $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition, date) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition."', '".$day."')";  
+    $sql5 = "SELECT * FROM widgets";
+    $result5 = $link->query($sql5);
+    $count2 = $result5->num_rows;
+    
+    $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition, date) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition."', '".$day."')";
+    
+    $widget1 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2."', '".$type1."', '".$content1."', '".$count."')";
+    $widget2 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2+1."', '".$type2."', '".$content2."', '".$count."')";
+    $widget3 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2+2."', '".$type3."', '".$content3."', '".$count."')";
+    $widget4 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2+3."', '".$type4."', '".$content4."', '".$count."')";
 }
     
 ?>
@@ -31,8 +48,12 @@ if (isset($_POST['submit'])){
             <?php if (isset($_POST['submit'])){
             if (mysqli_real_query($link, $sql2) == TRUE) {
                 echo "Your slide has been saved! <br>";
+                mysqli_real_query($link, $widget1);
+                mysqli_real_query($link, $widget2);
+                mysqli_real_query($link, $widget3);
+                mysqli_real_query($link, $widget4);
             } else {
-                echo "Sorry, there was an error.  not working";
+                echo "Sorry, there was an error. <br>";
             }
                 echo "Click <a href='../index.php?login=1'>here</a> to go back to the home page";
             } else {  
@@ -78,7 +99,7 @@ if (isset($_POST['submit'])){
                 <table border="1" cellpadding="50">
                 <tr>
                 <td>
-                    <select required name="1">
+                    <select required name="type1">
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
@@ -86,7 +107,7 @@ if (isset($_POST['submit'])){
                     <input name="content1" type="text">
                 </td>  
                 <td>
-                    <select required name="2">
+                    <select required name="type2">
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
@@ -96,7 +117,7 @@ if (isset($_POST['submit'])){
                 </tr>
                 <tr>
                 <td>
-                    <select required name="3">
+                    <select required name="type3">
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
@@ -104,7 +125,7 @@ if (isset($_POST['submit'])){
                     <input name="content3" type="text">
                 </td>  
                 <td>
-                    <select required name="4">
+                    <select required name="type4">
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>

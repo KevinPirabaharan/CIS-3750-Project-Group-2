@@ -51,6 +51,7 @@ include $dir."inc/menu.php";
                 </td>
                 </tr>
                 </table>
+                <br>
                 <a href="../index.php?login=1">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>

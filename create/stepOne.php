@@ -40,7 +40,7 @@ include $dir."inc/menu.php";
                   <option value="Dissolve">Dissolve</option>
                   <option value="Peel">Peel Off</option>
                 </select></p>
-                
+                <br>
                 <a href="stepTwo.php">Continue&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>

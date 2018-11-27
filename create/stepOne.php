@@ -13,10 +13,29 @@ include $dir."inc/menu.php";
         <div class="textbox">
         <h1>Create New Slide</h1><br>
             <form method="get" action="">
-                <input class="gridRadio" style="margin-left:75px" type="radio"><img src="../images/2x2.jpg" class="gridImg">
-                <input class="gridRadio" style="margin-left:150px" disabled type="radio"><img src="../images/3x1.jpg" class="gridImg">
-                <img src="../images/3x3.jpg" class="gridImg"><input class="gridRadio" style="margin-left:150px" disabled type="radio">
-                <input class="gridRadio" style="margin-left:150px" disabled type="radio"><img src="../images/varied.jpg" class="gridImg">
+                <div class="row">
+                <div class="col-md-3">
+                    <img src="../images/2x2.jpg" class="gridImg"><br>
+                    <input class="gridRadio" style="margin-left:75px" type="radio">
+                </div>
+                <div class="col-md-3">
+                    <img src="../images/3x3.jpg" class="gridImg"><br>
+                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                </div>
+                <div class="col-md-3">
+                    <img src="../images/3x1.jpg" class="gridImg"><br>
+                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                </div>
+                <div class="col-md-3">
+                    <img src="../images/varied.jpg" class="gridImg">
+                    <input class="gridRadio" style="margin-left:150px" disabled type="radio">
+                </div>
+                
+                </div>
+                
+               
+                
+                
             </form>
         </div>
         </body>
@@ -31,6 +50,7 @@ include $dir."inc/menu.php";
 }
 
 .gridRadio {
+    width:20%;
     
 }
     

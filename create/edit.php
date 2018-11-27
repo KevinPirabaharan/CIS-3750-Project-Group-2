@@ -15,8 +15,9 @@ if (isset($_POST['submit'])){
     $background = $_POST['background'];
     
     echo $transition."<br>".$gridLayout."<br>".$background;
-    
-    
+    $sql2 = "INSERT INTO slides (bgColor, grid, transition) VALUES ($background, $gridLayout, $transition)";
+    $result = $link->query($sql);
+    echo $result;
     
 }
     
@@ -117,7 +118,7 @@ if (isset($_POST['submit'])){
                 <img src="../images/widgets.png">
                 <br><br>
                 
-                <button name="cancel"><a style="color: black; text-decoration:none;" href="index.php?login=1?day=<?php echo $day; ?>">Cancel</a></button>&nbsp;&nbs;&nbsp;<input type="submit" name="submit" value="Save">
+                <button name="cancel"><a style="color: black; text-decoration:none;" href="index.php?login=1?day=<?php echo $day; ?>">Cancel</a></button>&nbsp;&nbsp;&nbsp;<input type="submit" name="submit" value="Save">
             </form>
      <?php } ?> 
         </div>

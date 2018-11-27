@@ -15,14 +15,15 @@ if (isset($_POST['submit'])){
     $gridLayout = $_POST['gridLayout'];
     $background = $_POST['background'];
     
-    echo $transition."<br>".$gridLayout."<br>".$background."<br>";
-    $sql2 = "INSERT INTO slides (bgColor, grid, transition) VALUES ('".$background."', '".$gridLayout."', '".$transition."')";
-    echo $sql2."<br>";
-    
     $sql3 = "SELECT * FROM slides";
     $result = $link->query($sql3);
     $count = $result->num_rows;
     echo "Number of rows is: ".$count;
+    
+    echo $transition."<br>".$gridLayout."<br>".$background."<br>";
+    $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition."')";
+    echo $sql2."<br>";
+    
     
     if (mysqli_real_query($link, $sql2) == TRUE) {
         echo "successfully inserted";

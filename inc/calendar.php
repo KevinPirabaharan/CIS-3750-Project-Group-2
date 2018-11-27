@@ -14,14 +14,14 @@
         <div>sun</div>
       </div>
       <div class="calendar__week">
-          <?PHP
-            $sql4 = "SELECT * FROM slides";
-            $result2 = $link->query($sql4);          
-          
+          <?PHP         
           
             for ($i = 1; $i <= 7; $i++){
                 echo '<div class="calendar__day day">';
                 echo '<a href="../create/index.php?login=1&day=Nov'.$i.'">'.$i.'</a><br><br>';
+                
+                $sql4 = "SELECT * FROM slides";
+                $result2 = $link->query($sql4);  
                 while($row = $result2->fetch_assoc()) {
                     $dbDay = $row['date'];
                     $calDay = "Nov".$i;
@@ -31,6 +31,8 @@
                         echo '<button type="button" class="star" data-toggle="popover" title="Job Opportunities" data-content="5-6pm, Foyer 2"><i class="material-icons">grade</i></button>';
                     }
                 }
+                
+                
                 echo '</div>';
             }
           ?>

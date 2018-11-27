@@ -14,21 +14,37 @@ $day = $_GET['day'];
         <h1>Create New Slide</h1><br>
             <form method="get" action="">
                 <div class="row">
-                <div class="col-md-2">
+                    
+                <div class="col-md-4">
+                <div class="col-md-1">
                     <img src="../images/2x2.jpg" class="gridImg"><br>
                     <input class="gridRadio" type="radio">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/3x3.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/3x1.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <img src="../images/varied.jpg" class="gridImg"><br>
                     <input class="gridRadio" disabled type="radio">
+                </div>
+                </div>
+                    
+                <div class="col-md-4">
+                <p>Transition: <select>
+                <option value="Fade">Fade</option>
+                <option value="Wipe">Wipe</option>
+                <option value="Dissolve">Dissolve</option>
+                <option value="Peel">Peel Off</option>
+                </select></p> 
+                </div>
+                    
+                <div class="col-md-4">
+                <p>Color: <input type="color"></p>
                 </div>
                 </div>
                 
@@ -73,7 +89,7 @@ $day = $_GET['day'];
                 </tr>
                 </table>
                 <br>
-                <div style="border:solid black 1px">
+                <!--<div style="border:solid black 1px">
                     <h2>Widgets</h2>
                 <div class="row">
                     <div class="col-md-2" style="border:solid black 1px">
@@ -89,7 +105,7 @@ $day = $_GET['day'];
                 </div>
                 
                 
-                </div>
+                </div>-->
                 <a href="../index.php?login=1&day=<?php echo $day; ?>">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a>
             </form>
         </div>

@@ -18,38 +18,26 @@ if (isset($_POST['submit'])){
     $sql3 = "SELECT * FROM slides";
     $result = $link->query($sql3);
     $count = $result->num_rows;
-    echo "Number of rows is: ".$count;
     
-    echo $transition."<br>".$gridLayout."<br>".$background."<br>";
-    $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition."')";
-    echo $sql2."<br>";
-    
-    
-    if (mysqli_real_query($link, $sql2) == TRUE) {
-        echo "successfully inserted";
-    } else {
-        echo "sorry not working";
-    }
-    
+    $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition."')";  
 }
     
-    ?>
+?>
 
 
 <body>
     <div class="textbox">
         <h1>Create New Slide</h1><br>
             <?php if (isset($_POST['submit'])){
-
-            echo "Your slide has been saved! <br>";
-            echo "Click <a href='../index.php?login=1'>here</a> to go back to the home page";
-
-
-        } else {  
+            if (mysqli_real_query($link, $sql2) == TRUE) {
+                echo "Your slide has been saved! <br>";
+            } else {
+                echo "Sorry, there was an error.  not working";
+            }
+                echo "Click <a href='../index.php?login=1'>here</a> to go back to the home page";
+            } else {  
 
         ?>
-        
-        
         
             <form method="post" action="">
                 <div class="row">

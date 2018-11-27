@@ -12,7 +12,7 @@ $day = $_GET['day'];
 <body>
     <div class="textbox">
         <h1>Create New Slide</h1><br>
-            <form method="get" action="../index.php?login=1">
+            <form method="get" action="">
                 <div class="row">
                 <div class="col-md-1">
                     <img src="../images/2x2.jpg" class="gridImg"><br>
@@ -103,8 +103,12 @@ $day = $_GET['day'];
                 
                 
                 </div>-->
-                <input type="submit" name="submit" value="Submit">
-                </form>
+                <br>
+                <img src="../images/widgets.png">
+                <br>
+                
+                <button><a href="../index.php?login=1">Finish&nbsp;<i class="material-icons">arrow_right_alt</i></a></button>
+            </form>
         </div>
     </body>
     

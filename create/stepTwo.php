@@ -13,14 +13,14 @@ include $dir."inc/menu.php";
     <div class="textbox">
         <h1>Create New Slide</h1><br>
             <form method="get" action="index.php">
-                <table>
+                <table border="1">
                 <tr>
                 <td>
                     <select>
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
-                    </select>  
+                    </select><br> 
                     <input type="text">
                 </td>  
                 <td>
@@ -28,7 +28,7 @@ include $dir."inc/menu.php";
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
-                    </select>  
+                    </select><br>
                     <input type="text">
                 </td>
                 </tr>
@@ -38,7 +38,7 @@ include $dir."inc/menu.php";
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
-                    </select>  
+                    </select><br>
                     <input type="text">
                 </td>  
                 <td>
@@ -46,7 +46,7 @@ include $dir."inc/menu.php";
                       <option value="Weather">Weather</option>
                       <option value="Time">Time</option>
                       <option value="Text">Text</option>
-                    </select>  
+                    </select><br>
                     <input type="text">
                 </td>
                 </tr>

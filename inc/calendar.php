@@ -118,7 +118,7 @@
                 $result2 = $link->query($sql4);  
                 while($row = $result2->fetch_assoc()) {
                     $dbDay = $row['date'];
-                    $calDay = "Nov".$i;
+                    $calDay = "Dec".$i;
                     if ($dbDay == $calDay){
                         echo '<button type="button" class="star" data-toggle="popover" title="December '.$i.'" data-content="'.$row['grid'].', '.$row['transition'].', '.$row['bgColor'].'"><i class="material-icons">grade</i></button>';
                     }

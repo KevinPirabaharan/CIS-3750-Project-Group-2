@@ -33,12 +33,12 @@ include $dir."inc/menu.php";
                 </div>
                 <p>Background Color: <input type="color"></p><br>
                 
-                <p>Transition: </p><select>
+                <p>Transition: <select>
                   <option value="Fade">Fade</option>
                   <option value="Wipe">Wipe</option>
                   <option value="Dissolve">Dissolve</option>
                   <option value="Peel">Peel Off</option>
-                </select>
+                    </select></p>
             </form>
         </div>
         </body>

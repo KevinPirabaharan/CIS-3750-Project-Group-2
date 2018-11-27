@@ -30,7 +30,14 @@ include $dir."inc/menu.php";
                     <img src="../images/varied.jpg" class="gridImg"><br>
                     <input class="gridRadio" type="radio">
                 </div>
-                </div>  
+                </div>
+                <p>Background Color: <input type="color"></p>
+                <select>
+                  <option value="Fade">Fade</option>
+                  <option value="Wipe">Wipe</option>
+                  <option value="Dissolve">Dissolve</option>
+                  <option value="Peel">Peel Off</option>
+                </select>
             </form>
         </div>
         </body>

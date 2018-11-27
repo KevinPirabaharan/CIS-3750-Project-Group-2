@@ -16,7 +16,7 @@ if (isset($_POST['submit'])){
     
     echo $transition."<br>".$gridLayout."<br>".$background;
     $sql2 = "INSERT INTO slides (bgColor, grid, transition) VALUES ($background, $gridLayout, $transition)";
-    if ($mysqli->query($sql2) === TRUE) {
+    if ($mysqli->query($link,$sql2) === TRUE) {
         echo "successfully inserted";
     }
     

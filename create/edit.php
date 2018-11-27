@@ -34,9 +34,12 @@ if (isset($_POST['submit'])){
     $sql2 = "INSERT INTO slides (slideID, bgColor, grid, transition, date) VALUES ('".$count."', '".$background."', '".$gridLayout."', '".$transition."', '".$day."')";
     
     $widget1 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2."', '".$type1."', '".$content1."', '".$count."')";
-    $widget2 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2+1."', '".$type2."', '".$content2."', '".$count."')";
-    $widget3 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2+2."', '".$type3."', '".$content3."', '".$count."')";
-    $widget4 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2+3."', '".$type4."', '".$content4."', '".$count."')";
+    $count2++;
+    $widget2 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2."', '".$type2."', '".$content2."', '".$count."')";
+    $count2++;
+    $widget3 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2."', '".$type3."', '".$content3."', '".$count."')";
+    $count2++;
+    $widget4 = "INSERT INTO widgets (widgetID, type, content, slideID) VALUES ('".$count2."', '".$type4."', '".$content4."', '".$count."')";
 }
     
 ?>

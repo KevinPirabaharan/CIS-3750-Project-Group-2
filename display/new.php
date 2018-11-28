@@ -90,7 +90,7 @@ window.onload=changeImg;
         </tr>
     
         <tr>
-            <td colspan="2" style="font-size :200%; text-align :center; padding-top: .5%;vertical-align: top">
+            <td colspan="2" style="font-size :200%; text-align :center; padding-top: .5%;vertical-align: top" width="30%">
                 Faculty<div style="font-size :25%;">&emsp;<br/><br/><br/><br/></div>
                 <table style="width:100%;">
                     <tr>
@@ -105,7 +105,7 @@ window.onload=changeImg;
             </td>
             <!--slide show ends-->
 
-            <td colspan="2" style="font-size :200%; text-align :center; vertical-align: top; padding: .5%; width: 30%">
+            <td colspan="2" style="font-size :200%; text-align :center; vertical-align: top; padding: .5%; width: 27%">
                 Today's Events<div style="font-size :25%;">&emsp;<br/><br/></div><br/>
                     
                 <table style="font-size :65%;  border:1px solid SaddleBrown; width:100%;border-collapse: collapse; ">

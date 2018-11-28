@@ -51,7 +51,7 @@ profDetails = ["2223","3326","2222","3310","1105","","2205","2201",
 //alert(images.length + " x "+profNames.length + " x "+profTitle.length+ " x " +profDetails.length);
 // Change Image
 function changeImg(){
-document.slide.src = "image/faculty/" + images[i]+".jpg";
+document.slide.src = "../images/faculty/" + images[i]+".jpg";
 document.getElementById("prName").innerText = profNames[i];
 document.getElementById("prTitle").innerText = profTitle[i];
 document.getElementById("prDetails").innerText ="Reynolds : " + profDetails[i];
@@ -94,7 +94,7 @@ window.onload=changeImg;
                 Faculty<div style="font-size :25%;">&emsp;<br/><br/><br/><br/></div>
                 <table style="width:100%;">
                     <tr>
-                        <td><img name="slide" height="235" width="200" src="image/faculty/DanaReaProfile.jpg"/></td>
+                        <td><img name="slide" height="235" width="200" src="../images/faculty/DanaReaProfile.jpg"/></td>
                         <td>
                             <div id ="prName" style="font-size :85%;"></div>
                             <div id ="prTitle" style="font-size :75%;"></div>

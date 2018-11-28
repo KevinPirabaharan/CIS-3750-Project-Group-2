@@ -108,7 +108,7 @@ window.onload=changeImg;
             <td colspan="2" style="font-size :200%; text-align :center; vertical-align: top; padding: .5%; width: 30%">
                 Today's Events<div style="font-size :25%;">&emsp;<br/><br/></div><br/>
                     
-                <table style="font-size :65%;  border:1px solid SaddleBrown; width:100%;border-collapse: collapse; ">
+                <table style="font-size :65%; width:100%;border-collapse: collapse; ">
                     <tr>
                         <th>Time</th>
                         <th>Hall</th>
@@ -172,7 +172,7 @@ window.onload=changeImg;
 
                     Co-op / Job Oppurtunities<br><div style="font-size :25%;">&emsp;</div>
                     
-                    <table style="font-size :65%; border:1px solid SaddleBrown; width:100%;border-collapse: collapse;">
+                    <table style="font-size :65%; width:100%;border-collapse: collapse;">
                         <tr>
                             <th>Apply before</th>
                             <th>Position</th>

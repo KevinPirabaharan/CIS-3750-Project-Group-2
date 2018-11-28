@@ -4,13 +4,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="refresh" content="500"> <!-- Page refresh time at content \\ color:SaddleBrown-->
-    <title>Reynolds Building</title>
+    <title>Picturesque Designs</title>
     <meta name="Picturesque Designs" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="shortcut icon" href="../images/logo.png"/>
     <script src="main.js"></script>
-</head>
-
-<body style="background-color:moccasin; font-size: 80%; color: saddlebrown;" onLoad="swapImage()">
+</head>  
+    
+<body style="background-color:#73bcd1; font-size: 80%; color: black;" onLoad="swapImage()">
         <script type="text/javascript">
             var i = 0; 			// Start Point
 var images = [];	// Images Array
@@ -72,29 +74,17 @@ window.onload=changeImg;
             </script>
     
     
-    <table border="2"  style="height:100%; width: 100%; ">
+    <table border="1" style="width: 100%; ">
         <tr>
-            <td align = "middle" rowspan="1" style="width:17%">
-                    <iframe src="http://free.timeanddate.com/clock/i6g76wrm/n1178/fs24/fc8b4513/tcffe4b5/pcffe4b5/tt0/tw1/tm1/ta1/tb4" frameborder="0" width="210" height="58"></iframe>
-
-                </td>
-            <td colspan="4">
-                <table style="width:100%">
+            <td colspan="2">
+                <table border="0" style="width:100%">
                     <tr>
-                            <td  rowspan="2" style="width:15%; align-content: right;padding-left:1%"><img src="image/Gryphon.jpg" alt="Gryphon Image"   width="120%" height="130px"></td>
-                            <td align = "middle" colspan="1" style="font-size: 440%; font-weight: normal; padding-top: 1%"> 
-                                    University of Guelph
-                            </td>
-                            <td rowspan="2" style="width:13%; align-content: left; padding-right:1%;">
-                                    <img src="image/uofg_cornerstone_red.png" alt="uofg_cornerstone_red Image"  width="90%" height="130px" >
-                            </td>
+                        <td style="width: 20%; align-content: center; "><img src="../images/Gryphon.jpg" width="40%" style="padding-left: 10%;padding-right: 10%"></td>
+                        <td colspan="1" style="text-align: center; "><div style="font-size: 400%">University of Guelph</div><div style="font-size: 200%">Reynolds Building</div><div style="font-size: 150%">School of Computer Science </div></td>
+                        <td style="width: 15%; align-content: center; "><img src="../images/uofg_cornerstone_red.png" width="40%" style="padding-left: 10%; padding-right: 5%;"></td>
                     </tr>
                     <tr>
-                            <td align="middle"  colspan="1" style="font-size: 200%;">
-                                Reynolds Building <br>
-                                School of Computer Science 
-                            </td>
-                        </tr>
+                    </tr>
                 </table>
             </td>
             
@@ -261,17 +251,5 @@ window.onload=changeImg;
             
         </tr>
     </table>
-    <br><br><br>
-    &emsp;&emsp;<a href="sign-in.html">Modify Signage</a><b>&emsp;&emsp;Members - Instructor: </b>
-
-
-Dana Rea.&emsp;&emsp;&emsp;&emsp;
-
-<b>Teaching Assistant:</b> Fanny Susilo, Nicolas Durish, Tamizhselvan Venkatesan.&emsp;&emsp;&emsp;&emsp;
-
-<b>Project Lead:</b> Ahmed Mousa.&emsp;&emsp;&emsp;&emsp;
-<b>Developers:</b> Jeremie Fraeys de Veubeke, Justin Wegner, Kevin Pirabaharan, Manoj Naick, Miriam Snow
-
-    <br><br><br><br><br>
 </body>
 </html>

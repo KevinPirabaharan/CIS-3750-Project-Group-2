@@ -427,6 +427,10 @@ window.onload=changeImg;
             </td>
             
         </tr>
+        
+        <tr>
+            <td colspan="5" style="align-content: center; text-align: center; vertical-align: 10%"><a style="text-decoration:none" href="../index.php"><img src="../images/logo.png" width="2%"><br>Picturesque Designs</a></td>
+        </tr>
     </table>
 </body>
 </html>

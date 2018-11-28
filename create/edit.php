@@ -65,6 +65,17 @@ if (isset($_POST['submit'])){
         
             <form method="post" action="">
                 <div class="row">
+                    
+                <div class="col-md-4">
+                <p>Transition: <select required name="transition">
+                <option value="Fade">Fade</option>
+                <option value="Wipe">Wipe</option>
+                <option value="Dissolve">Dissolve</option>
+                <option value="Peel Off">Peel Off</option>
+                </select></p> 
+                </div>    
+                    
+                    
                 <div class="col-md-1">
                     <img src="../images/2x2.jpg" class="gridImg"><br>
                     <input class="gridRadio" checked value="2x2" name="gridLayout" type="radio">
@@ -83,14 +94,7 @@ if (isset($_POST['submit'])){
                 </div>
                   
                     
-                <div class="col-md-2">
-                <p>Transition: <select required name="transition">
-                <option value="Fade">Fade</option>
-                <option value="Wipe">Wipe</option>
-                <option value="Dissolve">Dissolve</option>
-                <option value="Peel Off">Peel Off</option>
-                </select></p> 
-                </div>
+                
                     
                 <div class="col-md-2">
                 <p>Color: <input required name="background" type="color"></p>
